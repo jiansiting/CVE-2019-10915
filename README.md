@@ -1,0 +1,3 @@
+The vulnerability is an authentication bypass in the TIA Administrator server. 
+An attacker could execute arbitrary application commands through websockets on the node.js server which is externally exposed by default.
+By exploiting this vulnerability, an unauthenticated remote attacker could perform actions on TIA Portal, such as elevating privileges, changing proxy settings, or specifying malicious firmware updates.
